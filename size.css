@@ -1,0 +1,60 @@
+@media only screen and (min-width: 650px) {
+  .blogpost {
+   margin-left: 29%;
+   margin-right: 29%;
+   margin-top: 4%;
+  }
+.comments {
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-top: 4%;
+   font-size: 18px;
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+   .blogpost {
+  margin-top: 6%;
+  margin-right: 3%;
+  margin-left: 3%;
+  font-size: 4vw;
+  }
+.comments {
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-top: 4%;
+   font-size: 1px;
+   font-size: 4vw;
+}
+@media only screen and (max-width: 649px) {
+h1.title {
+	text-decoration-line: underline;
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 8vw;
+	color:#ffffff;
+	margin-bottom:12px;
+	margin-top:-20px;
+	margin-left:0px;
+  }
+h2.title {
+	text-decoration-line: underline;
+    font-family: Rubik;
+    font-weight: 600;
+    font-size: 8vw;
+	color:#ffffff;
+	margin-bottom:12px;
+	margin-top:-20px;
+	margin-left:0px;
+  }
+ .blogpost {
+  margin-top: 6%;
+  margin-right: 3%;
+  margin-left: 3%;
+  font-size: 5vw;
+ }
+.comments {
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-top: 4%;
+   font-size: 4vw;
+}

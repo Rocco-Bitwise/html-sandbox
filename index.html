@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="size.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+    <title>Rocco'ing Out</title>
+</head>
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<body>
+
+<div class="blogpost">
+     <p class="date">1st January, 2022</p>
+	 <h1 class="title">What is lorem ipsum?</h1>
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 🍰</p>
+	 <blockquote>&#x3c;Quoter&#x3e; Quote.<br>&#x3c;Quoter&#x3e; Quote.<br>&#x3c;Quoter&#x3e; Quote.</blockquote>
+	 <h2>What is lorem ipsum?</h2>
+	 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	 <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 🍰</p>
+</div>
+
+<div class="comments">
+     <div id="comment-section"></div>   
+</div>
+
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
+  siteName: "ROCCO",
+  commentSectionId: "TestPost"
+})
+</script>
+
+</body>
+<script>
+twemoji.parse('I \u2764\uFE0F emoji!');
+// will produce
+/*
+I <img
+  class="emoji"
+  draggable="false"
+  alt="❤️"
+  src="https://twemoji.maxcdn.com/36x36/2764.png"/> emoji!
+*/
+</script>
+</html>
